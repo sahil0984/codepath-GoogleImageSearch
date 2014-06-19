@@ -22,7 +22,7 @@ The following advanced user stories are optional: <br>
 9. Advanced: User can share an image to their friends or email it to themselves [DONE] <br>
 10. Advanced: Replace Filter Settings Activity with a lightweight modal overlay [DONE] <br>
 11. Advanced: Improve the user interface and experiment with image assets and/or styling and coloring [DONE] <br>
-12. Bonus: Use the StaggeredGridView to display visually interesting image results [DONE] <br>
+12. Bonus: Use the StaggeredGridView to display visually interesting image results [PART-DONE] <br>
 13. Bonus: User can zoom or pan images displayed in full-screen detail view [NOT DONE] <br> <br>
 
 Walkthrough of Imagely: <br> <br>
