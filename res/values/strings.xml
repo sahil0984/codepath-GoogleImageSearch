@@ -5,5 +5,43 @@
     <string name="hello_world">Hello world!</string>
     <string name="query_hint">Enter Search Term</string>
     <string name="title_activity_image_display">ImageDisplayActivity</string>
+    <string name="title_activity_settings">Edit Search Settings</string>
+    <string name="settings_image_type_label">Type</string>
+    <string name="settings_image_size_label">Size</string>
+    <string name="settings_image_color_filter_label">Color Filter</string>
+    <string name="settings_image_site_hint">Search website...</string>
+    <string name="save_button_label">Save</string>
+    
+    <string-array name="imgType_array">
+        <item>Not Selected</item>
+        <item>Face</item>
+        <item>Photo</item>
+        <item>Clipart</item>
+        <item>Lineart</item>
+    </string-array>
+    
+    <string-array name="imgSize_array">
+        <item>Not Selected</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>X-Large</item>
+    </string-array>
+    
+    <string-array name="imgColorFilter_array">
+        <item>Not Selected</item>
+		<item>black</item>
+		<item>blue</item>
+		<item>brown</item>
+		<item>gray</item>
+		<item>green</item>
+		<item>orange</item>
+		<item>pink</item>
+		<item>purple</item>
+		<item>red</item>
+		<item>teal</item>
+		<item>white</item>
+		<item>yellow</item>
+    </string-array>
 
 </resources>

@@ -8,13 +8,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="${packageName}.${activityClass}" >
 
-		<com.loopj.android.image.SmartImageView
+
+		<ImageView
 		    android:id="@+id/ivResult"
+		    android:contentDescription="Image Result"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_alignParentLeft="true"
 		    android:maxWidth="600dp"
 		    android:layout_alignParentTop="true"
+		    android:scaleType="fitCenter"
 		    android:src="@android:drawable/screen_background_light" />
-
+		
 </RelativeLayout>
+

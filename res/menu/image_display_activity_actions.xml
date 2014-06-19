@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/miWallpaper"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_wallpaper"
+        android:showAsAction="always"
+        android:title="Set as Wallpaper" >
+ 
+    </item>
+    <item
+        android:id="@+id/miShare"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_share"
+        android:showAsAction="always"
+        android:title="Share via Email" 
+        android:actionProviderClass="android.widget.ShareActionProvider" >
+        
+    </item>
+</menu>
