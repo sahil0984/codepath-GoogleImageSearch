@@ -12,7 +12,6 @@
 		    android:contentDescription="Image Result"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
 		    android:maxWidth="600dp"
         	android:layout_centerHorizontal="true"
         	android:layout_centerVertical="true"

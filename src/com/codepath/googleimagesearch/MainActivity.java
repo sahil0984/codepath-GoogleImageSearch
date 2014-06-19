@@ -8,13 +8,13 @@ import org.json.JSONObject;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
 import android.text.Html;
 import android.util.Log;
 //import android.view.Menu;
@@ -256,7 +256,7 @@ public class MainActivity extends SherlockFragmentActivity implements OnDataPass
 	
 
 	private void showFiltersDialog() {
-		FragmentManager fm = getSupportFragmentManager();
+		android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
 		EditFilterDialog editFilterDialog = EditFilterDialog.newInstance(imageFilter);
 		editFilterDialog.show(fm, "fragment_filters");
 		
