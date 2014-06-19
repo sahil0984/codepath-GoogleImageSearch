@@ -17,13 +17,13 @@ Also implemented a staggered view of the grid images in a form of a collage. <br
 6. User can scroll down “infinitely” to continue loading more image results (up to 8 pages) [DONE] <br> <br>
 
 The following advanced user stories are optional: <br>
-7. Advanced: Robust error handling, check if internet is available, handle error cases, network failures <br>
-8. Advanced: Use the ActionBar SearchView or custom layout as the query box instead of an EditText <br>
-9. Advanced: User can share an image to their friends or email it to themselves <br>
-10. Advanced: Replace Filter Settings Activity with a lightweight modal overlay <br>
-11. Advanced: Improve the user interface and experiment with image assets and/or styling and coloring <br>
-12. Bonus: Use the StaggeredGridView to display visually interesting image results <br>
-13. Bonus: User can zoom or pan images displayed in full-screen detail view <br> <br>
+7. Advanced: Robust error handling, check if internet is available, handle error cases, network failures [DONE] <br>
+8. Advanced: Use the ActionBar SearchView or custom layout as the query box instead of an EditText [DONE] <br>
+9. Advanced: User can share an image to their friends or email it to themselves [DONE] <br>
+10. Advanced: Replace Filter Settings Activity with a lightweight modal overlay [DONE] <br>
+11. Advanced: Improve the user interface and experiment with image assets and/or styling and coloring [DONE] <br>
+12. Bonus: Use the StaggeredGridView to display visually interesting image results [DONE] <br>
+13. Bonus: User can zoom or pan images displayed in full-screen detail view [NOT DONE] <br> <br>
 
 Walkthrough of Imagely: <br> <br>
 ![Video Walkthrough](Imagely.gif)
