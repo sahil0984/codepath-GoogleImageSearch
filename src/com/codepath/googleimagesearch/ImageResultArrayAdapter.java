@@ -5,10 +5,12 @@ import java.util.List;
 import com.loopj.android.image.SmartImageView;
 
 import android.content.Context;
+import android.graphics.Matrix.ScaleToFit;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView.ScaleType;
 
 
 public class ImageResultArrayAdapter extends ArrayAdapter<ImageResult> {
@@ -55,6 +57,7 @@ public class ImageResultArrayAdapter extends ArrayAdapter<ImageResult> {
 			//holder.ivImage.setImageResource(android.R.color.transparent);
 		}
 		holder.ivImage.setImageUrl(imageInfo.getThumbUrl());
+		
 		return convertView;
 	
 	}

@@ -45,7 +45,7 @@ public class MainActivity extends SherlockFragmentActivity implements OnDataPass
 	
 	//EditText etQuery;
 	//Button btnSearch;
-	GridView gvResults;
+    GridView gvResults;
 	
 	String searchQuery;
 	
@@ -108,8 +108,8 @@ public class MainActivity extends SherlockFragmentActivity implements OnDataPass
 	public void onImageSearch(String query) {
 		//String query = etQuery.getText().toString();
 		searchQuery = query;
-		Toast.makeText(this, "Searching for " + query, Toast.LENGTH_SHORT)
-				.show();
+		//Toast.makeText(this, "Searching for " + query, Toast.LENGTH_SHORT)
+		//		.show();
 		AsyncHttpClient client = new AsyncHttpClient();
 		
 		// https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=android
@@ -332,6 +332,8 @@ public class MainActivity extends SherlockFragmentActivity implements OnDataPass
 	    NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
 	    return activeNetworkInfo != null && activeNetworkInfo.isConnectedOrConnecting();
 	}
+	
+	
 	
 	@Override
 	public void onDataPass(ImageFilter filter) {

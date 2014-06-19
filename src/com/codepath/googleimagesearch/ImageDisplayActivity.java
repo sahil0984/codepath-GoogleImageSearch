@@ -15,6 +15,7 @@ import android.app.Activity;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -33,6 +34,8 @@ public class ImageDisplayActivity extends Activity {
 
 	private static final int REQUEST_CODE = 20;
 	private ShareActionProvider miShareAction;
+	
+	private ImageView pImage;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,12 +53,13 @@ public class ImageDisplayActivity extends Activity {
 	    //    }
 	    //});
 	    
-		ImageView pImage = (ImageView) findViewById(R.id.ivResult);
+		pImage = (ImageView) findViewById(R.id.ivResult);
 	    Picasso.with(getBaseContext()).load(result.getFullUrl()).placeholder(R.drawable.loading).error(R.drawable.image_not_available).into(pImage, new Callback() {
 			
 			@Override
 			public void onSuccess() {
 				setupShareIntent();
+				pImage.setBackgroundColor(Color.rgb(0, 0, 0));
 			}
 			
 			@Override
@@ -127,8 +131,8 @@ public class ImageDisplayActivity extends Activity {
 	        bmpUri = Uri.fromFile(file);
 	    } catch (IOException e) {
 	        e.printStackTrace();
-			Toast.makeText(getApplicationContext(), "ERR", Toast.LENGTH_SHORT)
-			.show();
+			//Toast.makeText(getApplicationContext(), "ERR", Toast.LENGTH_SHORT)
+			//.show();
 	    }
 	    return bmpUri;
 	}
