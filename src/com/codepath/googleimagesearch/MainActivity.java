@@ -306,17 +306,18 @@ public class MainActivity extends SherlockFragmentActivity implements OnDataPass
 		}
 		switch(imageFilter.getImageColorFilter()) {
 			case 0: imageColor=""; break;
-			case 1: imageColor="blue"; break;
-			case 2: imageColor="brown"; break;
-			case 3: imageColor="gray"; break;
-			case 4: imageColor="green"; break;
-			case 5: imageColor="orange"; break;
-			case 6: imageColor="pink"; break;
-			case 7: imageColor="purple"; break;
-			case 8: imageColor="red"; break;
-			case 9: imageColor="teal"; break;
-			case 10: imageColor="white"; break;
-			case 11: imageColor="yellow"; break;
+			case 1: imageColor="black"; break;
+			case 2: imageColor="blue"; break;
+			case 3: imageColor="brown"; break;
+			case 4: imageColor="gray"; break;
+			case 5: imageColor="green"; break;
+			case 6: imageColor="orange"; break;
+			case 7: imageColor="pink"; break;
+			case 8: imageColor="purple"; break;
+			case 9: imageColor="red"; break;
+			case 10: imageColor="teal"; break;
+			case 11: imageColor="white"; break;
+			case 12: imageColor="yellow"; break;
 			default: imageColor=""; break;
 		}
 		imageSite = imageFilter.getImageSite();
